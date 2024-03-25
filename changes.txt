@@ -16,3 +16,5 @@
 #Ante la falla de dwm-notitle-6.2.diff se modifico a mano para que muestre las primeras 15 letras de la aplicaciòn. Se realizò a mano.
 
 #Otra falla en archivo colorsbar y lo configure a mano y quedo perfecto.
+
+#Se incluyeron nuevas fuentes y cambio de tamaño. Tambièn modificaciòn del alto de la barra
