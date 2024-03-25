@@ -1,0 +1,6 @@
+#cambiando el numero de tecla.. linea 48
+
+- #define MODKEY Mod1Mask
++ #define MODKEY Mod4Mask
+
+
