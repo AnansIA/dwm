@@ -11,3 +11,5 @@
 
 #se instalo el patcher dwm-restoreafterrestart-20220709-d3f93c7.diff y funciono correctamente y no tuvo errores.
 
+#Se instala el patcher dwm-tilegap-6.4.diff y el valor de gaps se configura a 7px
+
