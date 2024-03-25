@@ -3,4 +3,8 @@
 - #define MODKEY Mod1Mask
 + #define MODKEY Mod4Mask
 
+#se instala el patcher dwm-startsig-20180523.diff
 
+*Arrojo errores y se introdujeron las lineas y funciono correctamente. Desde ahora si hago MOD+Ctrl+Shift+q refresca la el modulo.
+
+# cree el archivo install.sh que lo que hace es copiar el contenido de config.def.h a config.h y luego realiza sudo make clean install
