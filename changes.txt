@@ -8,3 +8,6 @@
 *Arrojo errores y se introdujeron las lineas y funciono correctamente. Desde ahora si hago MOD+Ctrl+Shift+q refresca la el modulo.
 
 # cree el archivo install.sh que lo que hace es copiar el contenido de config.def.h a config.h y luego realiza sudo make clean install
+
+#se instalo el patcher dwm-restoreafterrestart-20220709-d3f93c7.diff y funciono correctamente y no tuvo errores.
+
