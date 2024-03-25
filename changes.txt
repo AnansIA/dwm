@@ -13,3 +13,4 @@
 
 #Se instala el patcher dwm-tilegap-6.4.diff y el valor de gaps se configura a 7px
 
+#Ante la falla de dwm-notitle-6.2.diff se modifico a mano para que muestre las primeras 15 letras de la aplicaciòn. Se realizò a mano.
