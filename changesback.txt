@@ -1,0 +1,20 @@
+#cambiando el numero de tecla.. linea 48
+
+- #define MODKEY Mod1Mask
++ #define MODKEY Mod4Mask
+
+#se instala el patcher dwm-startsig-20180523.diff
+
+*Arrojo errores y se introdujeron las lineas y funciono correctamente. Desde ahora si hago MOD+Ctrl+Shift+q refresca la el modulo.
+
+# cree el archivo install.sh que lo que hace es copiar el contenido de config.def.h a config.h y luego realiza sudo make clean install
+
+#se instalo el patcher dwm-restoreafterrestart-20220709-d3f93c7.diff y funciono correctamente y no tuvo errores.
+
+#Se instala el patcher dwm-tilegap-6.4.diff y el valor de gaps se configura a 7px
+
+#Ante la falla de dwm-notitle-6.2.diff se modifico a mano para que muestre las primeras 15 letras de la aplicaciòn. Se realizò a mano.
+
+#Otra falla en archivo colorsbar y lo configure a mano y quedo perfecto.
+
+#Se incluyeron nuevas fuentes y cambio de tamaño. Tambièn modificaciòn del alto de la barra
