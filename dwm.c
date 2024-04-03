@@ -986,6 +986,9 @@ grabkeys(void)
 void
 incnmaster(const Arg *arg)
 {
+	char comando[256];
+	sprintf(comando, "xsetroot -name 'I: %i -- SELMON->NMASTER:%i -- UI:%i -- F:%f'", arg->i, selmon->nmaster, arg->ui, arg->f);
+	system(comando);
 	selmon->nmaster = MAX(selmon->nmaster + arg->i, 0);
 	arrange(selmon);
 }
